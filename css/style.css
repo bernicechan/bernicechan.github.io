@@ -1,0 +1,96 @@
+body {
+	/* this is a css comment */
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 10% 25%;
+	font-family:Helvetica, Arial, sans-serif;
+	margin-bottom: 100px;
+}
+
+.main {
+	margin-bottom: 100px;
+	max-width: 600px;
+	background: rgba(255,255,255,0.85);
+	margin: 0 auto;
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 30px 10px rgba(255,255,255,0.6);
+}
+
+h1 {
+	text-align:center;
+	font-family: 'Cherry Cream Soda', cursive;
+	text-shadow: 0px 0px 20px gray;
+	font-size: 50px;
+	color: #df0066
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight:normal;
+
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	cursor: pointer;
+}	
+
+h3:hover {
+	color: #0B17BA;
+}
+
+
+
+.list-heading {
+	text-align: center;
+}
+img {
+	display: block;
+	margin:0 auto;
+	border:10px solid white;
+	border-radius: 10% 10% 10% 10%;
+	width: 350px;
+
+
+}
+
+p,
+ul,
+ol {
+	line-height: 1.4;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul,
+ol {
+	text-align: center
+}
+
+a {
+	color: #df0066; 
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Courier New;
+	font-size: 25px;
+
+}
+
+a:hover {
+	color: #0B17BA;
+	text-decoration: underline;
+
+}
+
+@media screen and (max-width: 500px) {
+	img {
+		width: 70%;
+	}
+}
+
+
